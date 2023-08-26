@@ -9,7 +9,7 @@ import './assets/main.css'
 
 // 路由
 const router = VueRouter.createRouter({
-  history: VueRouter.createWebHistory(),
+  history: VueRouter.createWebHashHistory(),
   routes,
 });
 
