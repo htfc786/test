@@ -2,8 +2,8 @@ name: build web
 
 on:
   # 每24h这些一次
-  schedule:
-    - cron: "0 */24 * * *" 
+  # schedule:
+  #   - cron: "0 */24 * * *" 
   
   # 手动执行
   workflow_dispatch:
