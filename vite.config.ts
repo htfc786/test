@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: './', // 这里更改打包相对绝对路径
+  base: '/test/', // 这里更改打包相对绝对路径
 })
